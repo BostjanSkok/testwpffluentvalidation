@@ -3,7 +3,7 @@
      xmlns:lex="http://wpflocalizeextension.codeplex.com"
         lex:LocalizeDictionary.DesignCulture=""
         lex:ResxLocalizationProvider.DefaultAssembly="TestWpfFluentValidation"
-        lex:ResxLocalizationProvider.DefaultDictionary="Shell"
+        lex:ResxLocalizationProvider.DefaultDictionary="TestWpfFluentValidationRes"
         Title="{lex:LocText MainWindow2}"
      Height="350" Width="525" >
     <Window.Resources>
@@ -49,11 +49,11 @@
                     <ColumnDefinition Width="400" />
                 </Grid.ColumnDefinitions>
 
-                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Text="{lex:LocText TestWpfFluentValidation:Shell:Person2}" />
-                <Label Grid.Column="0" Grid.Row="1" Content="{lex:LocText TestWpfFluentValidation:Shell:FirstName2}" />
-                <Label Grid.Column="0" Grid.Row="2" Content="{lex:LocText TestWpfFluentValidation:Shell:LastName2}" />
-                <Label Grid.Column="0" Grid.Row="3" Content="{lex:LocText TestWpfFluentValidation:Shell:Birthday2}" />
-                <Label Grid.Column="0" Grid.Row="4" Content="{lex:LocText TestWpfFluentValidation:Shell:Email2}" />
+                <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Text="{lex:LocText Person}" />
+                <Label Grid.Column="0" Grid.Row="1" Content="{lex:LocText FirstName}" />
+                <Label Grid.Column="0" Grid.Row="2" Content="{lex:LocText LastName}" />
+                <Label Grid.Column="0" Grid.Row="3" Content="{lex:LocText Birthday}" />
+                <Label Grid.Column="0" Grid.Row="4" Content="{lex:LocText Email}" />
 
 
                 <TextBox Name="FirstName" Grid.Column="1" Grid.Row="1" gs:TextBoxExtensions.ShowErrorTemplate="True"

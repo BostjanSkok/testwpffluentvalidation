@@ -94,10 +94,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Shell.resx</DependentUpon>
     </Compile>
-    <Compile Include="TestWpfFluentValidation.Designer.cs">
+    <Compile Include="TestWpfFluentValidationRes.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TestWpfFluentValidation.resx</DependentUpon>
+      <DependentUpon>TestWpfFluentValidationRes.resx</DependentUpon>
     </Compile>
     <Compile Include="TextBoxExtensions.cs" />
     <Compile Include="Validators\PersonValidator.cs" />
@@ -140,7 +140,7 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Shell.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="TestWpfFluentValidation.sl-SI.resx">
+    <EmbeddedResource Include="TestWpfFluentValidationRes.sl-SI.resx">
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -148,9 +148,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="TestWpfFluentValidation.resx">
+    <EmbeddedResource Include="TestWpfFluentValidationRes.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>TestWpfFluentValidation.Designer.cs</LastGenOutput>
+      <LastGenOutput>TestWpfFluentValidationRes.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Validators\ValidationLoc.sl-SI.resx" />
     <EmbeddedResource Include="Validators\ValidationLoc.resx">
